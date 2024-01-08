@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Tajawal", sans-serif;
+  background-image: url(../img/Fond1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navBar {
+  width: 100%;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.navBarLog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* padding: 1rem; */
+  background-color: #fff;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.nav {
+  display: flex;
+  /* padding: 1rem; */
+  background-color: #ffffff80;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+.navBarLog h4 {
+  text-align: center;
+}
+.LogoImg {
+  width: 13%;
+  margin-left: 2rem;
+}
+.LogoImgLog {
+  width: 25%;
+  margin-left: 2rem;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-right: 5rem;
+}
+
+.navList li {
+  list-style: none;
+}
+.navList li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #07464f;
+}
+
+.AbonnementOffre {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  /* background-color: green; */
+}
+.Cart {
+  background-color: #ced4da;
+  border: 2px solid #fff;
+  height: 50vh;
+  padding: 3rem;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.219);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  border-radius: 10px;
+}
+
+.contenueCart ul li {
+  list-style: none;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+.Paragraph {
+  line-height: 3rem;
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.rel {
+  position: relative;
+}
+.Cart a {
+  position: absolute;
+  font-family: "Tajawal", sans-serif;
+  right: 0;
+  bottom: 0;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.Cart h1 {
+  /* padding: 1rem; */
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 100%;
+}
+.Offre {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  background-color: #f7f8f9;
+  height: 90vh;
+  width: 100%;
+}
+
+.offreContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.offreContainer h2 {
+  margin: 2.5rem;
+}
+#Head {
+  width: 100%;
+  /* height: 83vh; */
+  font-family: "Tajawal", sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.First {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* height: 80vh; */
+  line-height: 3rem;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.First a {
+  text-decoration: none;
+  color: #07464f;
+  background-color: #ffffff6f;
+  padding: 8px;
+  border-radius: 5px;
+  transition: all ease 0.3s;
+}
+.First a:hover {
+  background-color: #fff;
+}
+
+.Footer {
+  background-color: #fff;
+  /* height: 2vh; */
+  padding: 8px;
+  color: #07464f;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.Login {
+  /* background-image: url(../img/Fond1.jpg); */
+  background-color: #f5f5f5;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Login_connect {
+  /* background-image: url(../img/Fond1.jpg); */
+  background-color: #f5f5f5;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginFromDiv {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 3rem;
+  box-shadow: 0 12px 8px rgba(0, 0, 0, 0.137);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  gap: 1rem;
+  width: 15rem;
+}
+
+.imageSide {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_log {
+  width: 70%;
+  border-radius: 15px;
+}
+.Log_style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LoginFromDiv_v2 {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #fff;
+  padding: 3rem;
+  box-shadow: 0 12px 8px rgba(0, 0, 0, 0.137);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  gap: 1rem;
+  width: 50%;
+}
+
+.LoginFromDiv form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #07464f;
+}
+.LoginFromDiv_v2 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #07464f;
+}
+.LoginFromDiv form input {
+  margin-top: 8px;
+  /* border: 1px solid black; */
+  /* width: 15rem; */
+  padding: 0.7rem;
+
+  outline: none;
+}
+.LoginFromDiv_v2 form input {
+  margin-top: 8px;
+  /* border: 1px solid black; */
+  /* width: 15rem; */
+  padding: 0.7rem;
+
+  outline: none;
+}
+.LoginFromDiv form label {
+  text-align: center;
+}
+.LoginFromDiv_v2 form label {
+  text-align: center;
+}
+
+.LoginFromDiv form div {
+  display: grid;
+}
+.LoginFromDiv_v2 form div {
+  display: grid;
+}
+
+.submit {
+  background-color: #0b7285;
+  border: none;
+  font-size: 1rem;
+  color: white;
+}
+
+.inc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LinkInscripton {
+  background-color: #0b7285;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.7rem;
+  color: white;
+  width: 15rem;
+  text-align: center;
+}
+
+.Oublier {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #0b7285;
+}
+
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.check {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Contact {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 15%;
+}
+
+.Map iframe {
+  border-radius: 10px;
+}
+
+.message {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0 5px 8px rgba(77, 77, 77, 0.382);
+  border-radius: 10px;
+}
+.message h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.message form {
+  display: flex;
+
+  gap: 2rem;
+  flex-direction: column;
+}
+.message form input,
+textarea {
+  border: 1px solid beige;
+  outline: none;
+  padding: 0.7rem;
+  border-radius: 5px;
+}
+.message form button {
+  border: none;
+  cursor: pointer;
+  background-color: #0b7285;
+  padding: 1rem;
+  color: white;
+}
