@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navBar {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.nav {
+  display: flex;
+  /* padding: 1rem; */
+  background-color: #fff;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.LogoImgLog {
+  width: 20%;
+  margin-left: 2rem;
+}
+
+.nav ul {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+.nav ul li {
+  list-style: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #1864ab;
+  min-width: auto;
+}
+
+#profileLinkContainer {
+  position: relative;
+
+  min-width: 160px;
+  text-align: center;
+}
+
+#dropdown {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position below the anchor */
+  min-width: 160px;
+  left: 0;
+  background-color: #fff;
+  z-index: 1;
+  /* border-radius: 5px; */
+  border: 1px solid rgba(164, 164, 164, 0.258);
+}
+
+#dropdown ul {
+  font-family: "Montserrat", sans-serif;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  /* padding: 0.5rem; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#dropdown li {
+  /* padding: 8px; */
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transition: all ease 0.4s;
+}
+#dropdown li a {
+  font-size: 16px;
+}
+
+#dropdown li a:hover {
+  background-color: #ffffff;
+}
+
+.nav ul li {
+  position: relative;
+}
+
+.nav ul li:hover #dropdown {
+  display: block;
+}
+
+.Profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f3f5;
+  height: 100vh;
+}
+.Profile_container {
+  font-family: "Montserrat", sans-serif;
+
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.281);
+}
+
+.information {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3rem;
+
+  width: 100%;
+}
+.dakhel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+}
+.dakhel div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+}
+.InfoP {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.Offre {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  background-color: #f7f8f9;
+  height: 90vh;
+  width: 100%;
+}
+
+.offreContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.offreContainer h2 {
+  margin: 2.5rem;
+}
+.AbonnementOffre {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  /* background-color: green; */
+}
+.Cart {
+  background-color: #ced4da;
+  border: 2px solid #fff;
+  height: 50vh;
+  padding: 3rem;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.219);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  border-radius: 10px;
+}
+
+.contenueCart ul li {
+  list-style: none;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+.Paragraph {
+  line-height: 3rem;
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.rel {
+  position: relative;
+}
+.Cart a {
+  position: absolute;
+  font-family: "Rubik", sans-serif;
+  right: 0;
+  bottom: 0;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.Cart h1 {
+  /* padding: 1rem; */
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.Form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.Form div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* margin: 0.5rem; */
+}
+.Form div input {
+  border: 1px solid rgba(229, 229, 229, 0.348);
+  outline: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(176, 176, 176, 0.152);
+}
+
+.Addabnc {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+.Addabnc div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Addabnc select {
+  width: 100%;
+  border: 1px solid rgba(183, 183, 183, 0.623);
+  padding: 0.7rem;
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+}
+
+.cartNa {
+  border: none;
+}

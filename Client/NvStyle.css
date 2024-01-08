@@ -1,0 +1,74 @@
+.de {
+  background-color: #f7f8f9;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.demande {
+  /* border: 1px solid black; */
+  box-shadow: 0 5px 8px rgba(80, 80, 80, 0.249);
+
+  padding: 2rem;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 15px;
+}
+
+.AbonnementInfo {
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.249);
+  display: grid;
+  width: 35%;
+  grid-template-columns: 100px 1fr;
+  background-color: #d8f5a2;
+  border-radius: 10px;
+  color: rgb(71, 71, 71);
+  padding: 1rem;
+  gap: 1.3rem;
+}
+
+.InfoPersonnel ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.InfoPersonnel ul li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.CartNumber {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.PhotoIdentité {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.PhotoIdentité img {
+  width: 90%;
+  height: 70%;
+  border-radius: 5px;
+}
+
+.DateN {
+  grid-column: 1/-1;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 1rem;
+  background-color: #0b7285;
+}
